@@ -15,3 +15,4 @@ Cartpole (https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 
 
 ![DQNandA2C](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/a2c_dqn.png)
+![GA](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/ga_rew.png)
