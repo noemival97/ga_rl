@@ -2,7 +2,6 @@
 The purpose of the project is to analyse the differences between classical reinforcement learning and evolutionary computation approaches, developing an agent capable of solving a Cartpole problem. Three different types of algorithms are considered: two classical reinforcement learning algorithms, Q-learning and Advantage Actor Critic, and a genetic algorithm.
 The project tries to reproduce "Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning"(https://arxiv.org/abs/1712.06567) in a simpler environment 
 ## Environment
-![Test Image](./path_to_your_image/image_name.jpg)
 
 Cartpole (https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 ## Algorithm
@@ -15,4 +14,4 @@ Cartpole (https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 * [Tensorflow](https://pypi.org/project/tensorflow/): tf==2.11.0
 
 
-![Test Image](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/gif_cartpole)
+![DQNandA2C](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/gif_cartpole)
