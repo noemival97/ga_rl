@@ -14,4 +14,4 @@ Cartpole (https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
 * [Tensorflow](https://pypi.org/project/tensorflow/): tf==2.11.0
 
 
-![DQNandA2C](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/gif_cartpole)
+![DQNandA2C](https://github.com/noemival97/ga_rl/blob/main/ga_rl/cartpole/plots/a2c_dqn.png)
