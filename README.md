@@ -1,9 +1,5 @@
 # Genetic algorithms for reinforcement learning problem
-The purpose of the project is to analyse the differences between classical rein-
-forcement learning and evolutionary computation approaches, developing an agent
-capable of solving a Cartpole problem. Three different types of algorithms are
-considered: two classical reinforcement learning algorithms, Q-learning and Ad-
-vantage Actor Critic, and a genetic algorithm.
+The purpose of the project is to analyse the differences between classical reinforcement learning and evolutionary computation approaches, developing an agent capable of solving a Cartpole problem. Three different types of algorithms are considered: two classical reinforcement learning algorithms, Q-learning and Advantage Actor Critic, and a genetic algorithm.
 The project tries to reproduce "Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning"(https://arxiv.org/abs/1712.06567) in a simpler environment 
 ## Environment
 Cartpole (https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
