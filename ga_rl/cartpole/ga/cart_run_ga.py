@@ -13,7 +13,7 @@ class Base_Ga():
     self.t=t
     self.tau_table=np.zeros((self.num_gen,self.num_pop),dtype=int)
     self.fit_table=np.zeros((self.num_gen,self.num_pop), dtype=int)
-    self.fit=[]
+   
     self.best_g=0
     self.initialization()
 
@@ -36,9 +36,7 @@ class Base_Ga():
   def fitness(self,g,n):
     f=0
     for _ in range(15):
-      fit= ga.run_agent(g,n,self.sigma)
-      self.fit.append(fit)
-      f+=fit
+      f+= ga.run_agent(g,n,self.sigma)
     return f/15
 
   def fitness_fun(self,g):
@@ -81,7 +79,6 @@ class Base_Ga():
 
         np.save("cartpole/ga/tau_table.npy", self.tau_table)
         np.save("cartpole/ga/fit_table.npy", self.fit_table)
-        np.save("cartpole/ga/fit.npy",np.array( self.fit))
 
         print("Generazione: ",g, "Fitness: ", self.fit_table[g,:])
 
