@@ -1,0 +1,5 @@
+Nun_gen : 200
+Nun_pop : 20
+sigma : 0.05
+t : 3
+finish in : 22 generation
